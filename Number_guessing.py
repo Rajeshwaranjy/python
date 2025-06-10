@@ -7,11 +7,8 @@ print("\n\tYou've only ",
        round(math.log(upper - lower + 1, 2)),
       " chances to guess the integer!\n")
  
-# Initializing the number of guesses.
 count = 0
  
-# for calculation of minimum number of
-# guesses depends upon range
 while count < math.log(upper - lower + 1, 2):
     count += 1
  
@@ -34,5 +31,3 @@ while count < math.log(upper - lower + 1, 2):
 if count >= math.log(upper - lower + 1, 2):
     print("\nThe number is %d" % x)
     print("\tBetter Luck Next time!")
- 
-# Better to use This source Code on pycharm!
